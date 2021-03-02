@@ -75,7 +75,7 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
 
   # add `FactoryBot` methods
-  config.include FactoryBot::Syntax::Mathods
+  config.include FactoryBot::Syntax::Methods
 
   # start by truncating all tables but then use the
   # faster transaction  strategy the rest of the time.
