@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class Item < ApplicationRecord
-  # model association  
+  # model association
   belongs_to :todo
 
   # validations
